@@ -1,0 +1,61 @@
+table,th,tr,td {
+    background-color: #fafafa;
+    border: 1px solid rgb(112, 112, 112);
+    text-align: center;
+}
+
+th,tr,td {
+    padding: 10px 10px;    
+}
+
+.foto-usuario{    
+    height: 90px;
+    width: 100px;    
+    object-fit: cover;
+}
+.foto-usuario > img {
+    object-fit: cover;
+    left: 0;
+    height: 100%;
+    position: absolute;
+      width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.acciones .btn{
+    text-decoration: none;
+    color: #fafafa;    
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin: 0;
+    text-align: center;
+    margin: auto;
+    transition: 0.7s ease-in-out;
+}
+.acciones .btn:hover{
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.acciones .editar{
+    background: rgb(7, 7, 100);
+}
+
+form{
+    margin: auto;
+}
+
+form .borrar{
+    background: rgb(136, 6, 6);
+}
+
+.acciones{    
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    border: none;    
+    height: 110px;
+}
